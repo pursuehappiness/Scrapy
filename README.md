@@ -26,3 +26,14 @@ this may be a bug of scrapy shell
 ```
  response.css('title')
 ```
+### command line argument 
+
+```python
+ tag = getattr(self, 'tag', None)
+        if tag is not None:
+            url = url + 'tag/' + tag
+```
+command line
+```
+scrapy crawl quotes -a tag=humor
+```
