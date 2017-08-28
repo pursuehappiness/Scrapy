@@ -37,3 +37,9 @@ command line
 ```
 scrapy crawl quotes -a tag=humor
 ```
+
+## genspider
+using follow command
+```
+$ scrapy genspider -t crawl scrapyorg scrapy.org
+```
